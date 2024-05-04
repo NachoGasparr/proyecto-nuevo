@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/estilos/contacto.css">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/favicon.ico" alt="My App Logo" width="30" height="30">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginas/menu.html" aria-label="Menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginas/nosotros.html" aria-label="Nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginas/ubi.html" aria-label="Ubicacion">Ubicacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginas/contacto.html" aria-label="Contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <html>
+<head>
+
+	<div class="contact_form">
+
+	<div class="formulario">			
+    <h1>Formulario de contacto</h1>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+        <form action="submeter-formulario.php" method="post">
+            <p>
+<label for="nombre" class="colocar_nombre">Nombre
+<span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+</p>
+
+<p>
+<label for="email" class="colocar_email">Email
+<span class="obligatorio">*</span>
+</label>
+<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+</p>
+
+<p>
+<label for="telefone" class="colocar_telefono">Teléfono
+</label>
+<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+</p>		
+
+<p>
+<label for="website" class="colocar_website">Sitio web
+</label>
+<input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+</p>		
+
+<p>
+<label for="asunto" class="colocar_asunto">Asunto
+    <span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+</p>		
+
+<p>
+<label for="mensaje" class="colocar_mensaje">Mensaje
+<span class="obligatorio">*</span>
+</label>                     
+<textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+</p>	  								
+
+<button1 type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button1>
+
+<p class="aviso">
+<span class="obligatorio"> * </span>los campos son obligatorios.
+</p>					
+
+</form>
+</div>	
+</div>
+
+</body>
+</html>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
