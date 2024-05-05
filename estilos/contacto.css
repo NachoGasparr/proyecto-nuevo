@@ -134,3 +134,28 @@ p{
 	border: 1px solid #97d848;
 }
 
+@media (min-width: 200px) and (max-width: 480px) {
+	.contact_form {
+	width: 90%;
+	margin: 20px auto;
+	}
+	input, textarea {
+	width: 90%;
+	}
+	button1 {
+	width: 90%;
+	}
+}
+
+@media (min-width: 150px) and (max-width: 200px) {
+	.contact_form {
+	width: 90%;
+	margin: 20px auto;
+	}
+	input, textarea {
+	width: 90%;
+	}
+	button1 {
+	width: 90%;
+	}
+}
