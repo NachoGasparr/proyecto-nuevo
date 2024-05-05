@@ -6,7 +6,9 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.562)), 
     url('/img/fondo\ ubi.webp') no-repeat center center fixed;
     background-size: cover;
-}
+    align-items: center; 
+    margin: 0;
+} 
 
 
 .grid-container {
@@ -36,17 +38,16 @@ body {
 }
 
 .map-link {
-    /* Use a more accessible color contrast */
-    background-color: #eee9e9; /* replaced rgba with a hex code */
+    background-color: #eee9e9; 
     font-size: 30px;
     font-weight: bold;
-    color: #9c9393; /* improved contrast */
-    text-decoration: none; /* removed underline */
-    border: none; /* removed default border */
-    border-radius: 5px; /* added a subtle border radius */
-    padding: 10px 20px; /* added padding for a better button shape */
-    cursor: pointer; /* changed cursor to a pointer on hover */
-    transition: background-color 0.3s ease; /* added a smooth transition effect */
+    color: #9c9393; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
 }
 
 .map-link:hover {
@@ -96,4 +97,25 @@ background-color: #f9f9f9;
 padding: 20px;
 border: 1px solid #ccc;
 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 30px;
+    }
+    .grid-item {
+        padding: 10px;
+    }
+    .map-link {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+    main {
+        padding: 10px;
+    }
+    section#contacto {
+        padding: 10px;
+    }
 }

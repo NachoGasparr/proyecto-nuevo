@@ -67,7 +67,7 @@ h2 {
 }
 
 @media (max-width: 480px) {
-   .title-image {
+    .title-image {
         height: 100px;
     }
 }
