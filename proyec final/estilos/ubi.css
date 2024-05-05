@@ -36,17 +36,16 @@ body {
 }
 
 .map-link {
-    /* Use a more accessible color contrast */
-    background-color: #eee9e9; /* replaced rgba with a hex code */
+    background-color: #eee9e9; 
     font-size: 30px;
     font-weight: bold;
-    color: #9c9393; /* improved contrast */
-    text-decoration: none; /* removed underline */
-    border: none; /* removed default border */
-    border-radius: 5px; /* added a subtle border radius */
-    padding: 10px 20px; /* added padding for a better button shape */
-    cursor: pointer; /* changed cursor to a pointer on hover */
-    transition: background-color 0.3s ease; /* added a smooth transition effect */
+    color: #9c9393; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
 
 .map-link:hover {
